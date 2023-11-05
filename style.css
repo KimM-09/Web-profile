@@ -1,0 +1,73 @@
+/*setting the background color for the whole page*/
+body {
+background-color: #F4A261;
+}
+
+/*setting the background color and padding for the header*/
+
+header {
+background-color: #E76F51;
+padding: 10px;
+}
+
+/*adding style preferences to the text on the page*/
+
+h1, h2, h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #264653;
+    text-align: center;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#333232;
+    font-size: 18px;
+}
+
+li {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    color:#333232;
+    font-size: 16px;
+}
+
+/*to position the numbers or bullet points inside the container*/
+
+.list-inside li {
+    list-style-position: inside;
+}
+
+/*to center and size the picture*/
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 10px;
+}
+
+/*styling the footer to match the header*/
+
+footer {
+    background-color: #E76F51;
+    padding: 5px;
+}
+
+/*adding simple style to the hr tag*/
+
+hr {
+    width:25px;
+    height: 25px;
+    border:2px, solid #333232;
+    background-color:#2A9D8F;
+    color:#333232;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transform: rotate(45deg);
+    
+}
+
+
+
